@@ -3,7 +3,8 @@
 # currently only for Bitbucket Server
 
 ## What it does
-It takes a list of relative paths to point Snyk to specific files to import in specific location for the bitbucket integration of your org
+Scans a locally cloned repo to extract the list of paths to the manifest files of interest to import into Snyk.
+Using linux pipe, it takes a list of relative paths to point Snyk to specific files to import in specific location for the bitbucket integration of your org
 
 ## Usage
 1. Clone your repo
